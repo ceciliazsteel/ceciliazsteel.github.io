@@ -215,7 +215,7 @@ body {
 }
 
 #figure-citation {
-    text-align: center;
+    text-align: left;
     font-size: 0.85em;
     opacity: 0.7;
     padding: 1em 0 2em 0;
