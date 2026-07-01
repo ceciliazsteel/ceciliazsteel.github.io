@@ -108,16 +108,30 @@
     margin: 2em 0;
 }
 
-#research-video {
-    width: 40%;
-    max-width: 400px;
-    border-radius: 8px;
+#research-video-wrap {
+    width: 55%;
+    max-width: 600px;
     flex-shrink: 0;
 }
 
-#research-content p {
+#research-video {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+#video-caption {
+    font-size: 0.85em;
+    opacity: 0.75;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+#research-content > p {
     flex: 1;
     margin: 0;
+    max-width: 320px;
 }
 
 .wrapper.style1,
