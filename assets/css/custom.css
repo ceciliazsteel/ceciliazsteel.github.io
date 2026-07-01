@@ -221,14 +221,21 @@ body {
     padding: 1em 0 2em 0;
     background-color: #332E42;
 }
-
 @media screen and (max-width: 1280px) {
     #sidebar {
         width: 100% !important;
+        height: 3.5em !important;      /* NEW */
+        overflow: visible !important;   /* NEW */
     }
     #sidebar + #wrapper {
         margin-left: 0 !important;
     }
+    #profile-pic {                      /* NEW */
+        display: none !important;       /* NEW */
+    }                                    /* NEW */
+    #sidebar-bg {                       /* NEW */
+        display: none !important;       /* NEW */
+    }                                    /* NEW */
 }
 
 @media screen and (max-width: 736px) {
@@ -237,12 +244,12 @@ body {
     }
     .spotlights > section > .image {
         width: 100% !important;
+        height: auto !important;        /* NEW */
+        overflow: hidden;               /* NEW */
     }
-
     #about-photos {
         grid-template-columns: repeat(2, 1fr) !important;
     }
-
     #research-content,
     #figure-content {
         flex-direction: column !important;
