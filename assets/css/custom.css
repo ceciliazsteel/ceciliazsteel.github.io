@@ -221,3 +221,35 @@ body {
     padding: 1em 0 2em 0;
     background-color: #332E42;
 }
+
+@media screen and (max-width: 1280px) {
+    #sidebar {
+        width: 100% !important;
+    }
+    #sidebar + #wrapper {
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .spotlights > section {
+        display: block !important;
+    }
+    .spotlights > section > .image {
+        width: 100% !important;
+    }
+
+    #about-photos {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    #research-content,
+    #figure-content {
+        flex-direction: column !important;
+    }
+    #research-video-wrap,
+    #figure-image {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
