@@ -172,7 +172,9 @@
 }
 
 .spotlights > section > .content {
-    display: none !important;
+    display: flex !important;
+    flex: 1 !important;
+    width: auto !important;
 }
 
 #main.wrapper {
@@ -204,4 +206,12 @@ body {
 #figure-content p {
     flex: 1;
     margin: 0;
+}
+
+#figure-citation {
+    text-align: center;
+    font-size: 0.85em;
+    opacity: 0.7;
+    padding: 1em 0 2em 0;
+    background-color: #332E42;
 }
