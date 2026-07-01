@@ -178,6 +178,11 @@
     padding: 2em 3em !important;
 }
 
+.spotlights > section:nth-child(2),
+.spotlights > section:nth-child(3) {
+    background-color: transparent !important;
+}
+
 #main.wrapper {
     background-color: #332E42 !important;
 }
