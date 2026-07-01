@@ -1,8 +1,7 @@
-#sidebar {
+#sidebar-bg {
     background-image: url('images/MW_image2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
 }
     
 #profile-pic {
