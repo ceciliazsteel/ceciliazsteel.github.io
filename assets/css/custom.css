@@ -1,5 +1,5 @@
 #sidebar {
-    background-image: url('images/MW_image.jpg');
+    background-image: linear-gradient(rgba(28, 31, 38, 0.7), rgba(28, 31, 38, 0.7)), url('images/MW_image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
