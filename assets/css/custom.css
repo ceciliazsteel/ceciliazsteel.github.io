@@ -59,7 +59,8 @@
 }
 
 #intro {
-    background-color: #1c1f26;
+    background-color: #1c1f26; /* or whatever color you're currently using */
+    background-image: none !important;
 }
 
 #intro h1,
