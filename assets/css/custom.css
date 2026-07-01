@@ -16,7 +16,7 @@
 
 #sidebar #profile-pic img {
     display: block !important;
-    width: calc(100% - 20px) !important;
+    width: 55% !important;
     aspect-ratio: 1 / 1 !important;
     max-width: none !important;
     border-radius: 50% !important;
