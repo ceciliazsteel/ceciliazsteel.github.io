@@ -119,3 +119,12 @@
     flex: 1;
     margin: 0;
 }
+
+.wrapper.style1,
+.wrapper.style1-alt,
+.wrapper.style2,
+.wrapper.style2-alt,
+.wrapper.style3,
+.wrapper.style3-alt {
+    background-color: #332E42 !important;
+}
