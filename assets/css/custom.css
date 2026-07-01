@@ -64,12 +64,3 @@
     color: #ffffff;
 }
 
-#sidebar nav a {
-    border-bottom-color: #4FC3D9 !important; /* swap to whatever color you want */
-}
-
-#sidebar nav a:hover,
-#sidebar nav a.active {
-    border-bottom-color: #4FC3D9 !important;
-    color: #4FC3D9 !important;
-}
