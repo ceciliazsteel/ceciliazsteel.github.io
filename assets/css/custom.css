@@ -9,13 +9,13 @@
     box-sizing: border-box;
 }
 
-#profile-pic img {
-    display: block;
+#sidebar #profile-pic img {
+    display: block !important;
     width: 60% !important;
-    aspect-ratio: 1 / 1;
-    max-width: 200px;
+    aspect-ratio: 1 / 1 !important;
+    max-width: 200px !important;
     border-radius: 50% !important;
-    object-fit: cover;
-    border: 3px solid #ffffff;
-    margin: 0 auto;
+    object-fit: cover !important;
+    border: 3px solid #ffffff !important;
+    margin: 0 auto !important;
 }
