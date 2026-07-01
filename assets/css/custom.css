@@ -151,6 +151,7 @@
 
 .spotlights > section {
     align-items: flex-start !important;
+    min-height: 0 !important;
 }
 
 .spotlights > section > .content {
