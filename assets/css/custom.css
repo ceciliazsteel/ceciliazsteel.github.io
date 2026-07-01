@@ -149,3 +149,26 @@
 body {
     background-color: #332E42;
 }
+
+#figure-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+#figure-image {
+    width: 35%;
+    max-width: 350px;
+    flex-shrink: 0;
+}
+
+#figure-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#figure-content p {
+    flex: 1;
+    margin: 0;
+}
