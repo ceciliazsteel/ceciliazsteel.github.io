@@ -64,3 +64,11 @@
     color: #ffffff;
 }
 
+#sidebar nav a:before {
+    background: #ffffff !important;
+}
+
+#sidebar nav a:after {
+    background-image: linear-gradient(to right, #ffffff, #ffffff) !important;
+}
+
