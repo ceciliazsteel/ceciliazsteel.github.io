@@ -131,15 +131,13 @@
 
 .spotlights > section > .image {
     width: 25em !important;
-    background: none !important;
-    background-image: none !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-color: #332E42;
 }
 
 .spotlights > section > .image img {
-    display: block !important;
-    width: 100% !important;
-    height: auto !important;
-    max-width: 100%;
+    display: none !important;
 }
 
 #main.wrapper {
