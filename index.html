@@ -17,7 +17,8 @@
 
 		<!-- Sidebar -->
 			<section id="sidebar">
-				<div class="inner">
+			    <div id="sidebar-bg"></div>
+			    <div class="inner">
 					<div id="profile-pic">
 						<img src="images/me-photo.jpg" alt="Profile picture" />
 						<p id="profile-name">Cecilia Steel</p>
@@ -147,6 +148,13 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+			window.addEventListener('scroll', function() {
+		    const bg = document.getElementById('sidebar-bg');
+		    const scrolled = window.scrollY;
+		    bg.style.transform = 'translateY(' + (scrolled * 0.3) + 'px)';
+			});
+			</script>
 
 	</body>
 </html>
