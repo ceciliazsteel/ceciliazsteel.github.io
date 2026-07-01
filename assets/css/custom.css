@@ -163,6 +163,10 @@
     height: auto !important;
 }
 
+.spotlights > section > .content {
+    display: none !important;
+}
+
 #main.wrapper {
     background-color: #332E42 !important;
 }
