@@ -261,12 +261,5 @@ body {
     }
 }
 
-@media screen and (max-width: 736px) {
-    #sidebar {
-        display: flex !important;
-        width: 100% !important;
-        height: 3.5em !important;
-        overflow: visible !important;
-    }
 }
 
