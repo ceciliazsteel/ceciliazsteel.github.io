@@ -1,7 +1,9 @@
 #sidebar {
-    background-color: #1c1f26;
+    background-image: url('images/MW_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
     
 #profile-pic {
     width: calc(100% + 5em);
