@@ -3,14 +3,19 @@
 }
 
 #profile-pic {
+    width: 100%;
     text-align: center;
     margin-bottom: 1.5em;
+    box-sizing: border-box;
 }
 
 #profile-pic img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    display: block;
+    width: 80px !important;
+    height: 80px !important;
+    max-width: 80px;
+    border-radius: 50% !important;
     object-fit: cover;
-    border: 3px solid #ffffff; /* optional accent border */
+    border: 3px solid #ffffff;
+    margin: 0 auto;
 }
