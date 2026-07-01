@@ -2,6 +2,10 @@
     background-color: #1c1f26;
 }
 
+#intro {
+    background-color: #1c1f26; /* pick any color you want */
+
+    
 #profile-pic {
     width: calc(100% + 5em);
     margin-left: -2.5em;
