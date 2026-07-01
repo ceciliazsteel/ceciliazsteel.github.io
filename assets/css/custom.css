@@ -131,15 +131,15 @@
 
 .spotlights > section > .image {
     width: 25em !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-color: #332E42;
+    background: none !important;
+    background-image: none !important;
 }
 
 .spotlights > section > .image img {
-    display: none !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
 }
-
 #main.wrapper {
     background-color: #332E42 !important;
 }
