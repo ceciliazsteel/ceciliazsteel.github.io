@@ -139,5 +139,6 @@
     display: block !important;
     width: auto !important;
     height: auto !important;
-    max-width: 100%; /* still prevents it from overflowing the page on small screens */
+    max-width: 100%;
+    max-height: 500px; /* caps how tall any image can display, adjust to taste */
 }
