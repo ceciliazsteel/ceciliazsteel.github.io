@@ -11,9 +11,9 @@
 
 #profile-pic img {
     display: block;
-    width: 160px !important;
-    height: 160px !important;
-    max-width: 80%;
+    width: 60% !important;
+    aspect-ratio: 1 / 1;
+    max-width: 200px;
     border-radius: 50% !important;
     object-fit: cover;
     border: 3px solid #ffffff;
