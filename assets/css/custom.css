@@ -38,13 +38,12 @@
     margin-top: 0.25em;
 }
 
-#about-photos {
+That means going back to the simpler stretch-to-fill version (like your 3-column one before the spacing tweak), just with 5 instead of 3:
+css#about-photos {
     display: grid;
-    grid-template-columns: repeat(4, 280px);  /* raised from 200px */
-    justify-content: space-between;
+    grid-template-columns: repeat(5, 1fr);
     gap: 1em;
-    max-width: 1100px;
-    width: 100%;
+    max-width: 900px;
     margin: 2em auto;
 }
 
