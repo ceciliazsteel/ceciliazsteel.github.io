@@ -21,3 +21,18 @@
     border: 3px solid #ffffff !important;
     margin: 0 auto !important;
 }
+
+#about-photos {
+    column-count: 2;
+    column-gap: 1em;
+    max-width: 600px;
+    margin: 2em auto;
+}
+
+#about-photos img {
+    width: 100%;
+    display: block;
+    margin-bottom: 1em;
+    border-radius: 8px;
+    break-inside: avoid; /* stops images being split across columns */
+}
