@@ -75,3 +75,21 @@
     background-image: linear-gradient(to right, #ffffff, #ffffff) !important;
 }
 
+#research-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    margin: 2em 0;
+}
+
+#research-video {
+    width: 40%;
+    max-width: 400px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+#research-content p {
+    flex: 1;
+    margin: 0;
+}
