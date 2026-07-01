@@ -1,5 +1,5 @@
 #sidebar {
-    background-image: url('images/MW_image.jpg') !important;
+    background-image: linear-gradient(rgba(28, 31, 38, 0.5), rgba(28, 31, 38, 0.5)), url('../../images/MW_image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,9 +35,10 @@
 }
 
 #profile-title {
+    color: #ffffff;
     font-size: 1.5em;
     font-weight: 400;
-    opacity: 2.0;
+    opacity: 0.8;
     margin-top: 0.25em;
 }
 
