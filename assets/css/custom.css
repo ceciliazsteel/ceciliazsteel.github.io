@@ -129,6 +129,10 @@
     background-color: #332E42 !important;
 }
 
+.spotlights > section {
+    align-items: flex-start !important;
+}
+
 .spotlights > section > .image {
     width: 25em !important;
     background: none !important;
@@ -140,6 +144,7 @@
     width: 100% !important;
     height: auto !important;
 }
+
 #main.wrapper {
     background-color: #332E42 !important;
 }
