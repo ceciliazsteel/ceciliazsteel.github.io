@@ -1,5 +1,6 @@
 #sidebar {
-    background-color: #1c1f26; /* change to any hex/color you want */
+    background-color: #1c1f26;
+    width: 350px !important; /* default is usually ~275-300px */
 }
 
 #profile-pic {
