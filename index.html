@@ -149,10 +149,18 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
+			function updateSidebarBg() {
+			    const bg = document.getElementById('sidebar-bg');
+			    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+			    bg.style.height = (window.innerHeight + scrollableHeight) + 'px';
+			}
+			
+			window.addEventListener('resize', updateSidebarBg);
+			window.addEventListener('load', updateSidebarBg);
+			
 			window.addEventListener('scroll', function() {
-		    const bg = document.getElementById('sidebar-bg');
-		    const scrolled = window.scrollY;
-		    bg.style.transform = 'translateY(' + (scrolled * 0.3) + 'px)';
+			    const bg = document.getElementById('sidebar-bg');
+			    bg.style.transform = 'translateY(-' + window.scrollY + 'px)';
 			});
 			</script>
 
