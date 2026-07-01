@@ -262,4 +262,45 @@ body {
 }
 
 }
+@media screen and (max-width: 736px) {
+    #sidebar {
+        display: block !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 3.5em !important;
+        overflow: visible !important;
+        z-index: 10000 !important;
+    }
 
+    #sidebar > .inner {
+        flex-direction: row !important;
+        align-items: center !important;
+        height: 100% !important;
+        justify-content: center !important;
+    }
+
+    #profile-pic {
+        display: none !important; /* photo/name hidden in the thin bar, nav only */
+    }
+
+    #sidebar nav ul {
+        display: flex !important;
+        flex-direction: row !important;
+        margin: 0 !important;
+    }
+
+    #sidebar nav ul li {
+        margin: 0 0 0 1.5em !important;
+    }
+
+    #sidebar nav ul li:first-child {
+        margin-left: 0 !important;
+    }
+
+    #wrapper {
+        padding-top: 3.5em !important;
+        margin-left: 0 !important;
+    }
+}
