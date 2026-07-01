@@ -147,6 +147,11 @@
     align-items: flex-start !important;
 }
 
+.spotlights > section > .content {
+    flex: 1 !important;
+    width: auto !important;
+}
+
 .spotlights > section > .image {
     width: 25em !important;
     background: none !important;
