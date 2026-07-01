@@ -25,6 +25,16 @@
     margin: 0 auto !important;
 }
 
+
+#sidebar {
+    width: 22em; /* up from default 18em, adjust to taste */
+}
+
+#sidebar + #wrapper {
+    margin-left: 22em; /* must match sidebar width exactly */
+}
+
+
 #profile-name {
     color: #ffffff;
     text-align: center;
