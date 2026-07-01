@@ -128,3 +128,9 @@
 .wrapper.style3-alt {
     background-color: #332E42 !important;
 }
+
+.spotlights > section > .image {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-color: #332E42; /* fills empty space around the image with your page color instead of leaving it blank */
+}
