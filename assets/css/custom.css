@@ -34,6 +34,22 @@
     margin-left: 22em; /* must match sidebar width exactly */
 }
 
+#sidebar {
+    width: 22em;
+    overflow: hidden; /* keeps the moving background from spilling out */
+}
+
+#sidebar-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%; /* taller than the sidebar so it has room to shift */
+    background-image: url('../../images/MW_image.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
 
 #profile-name {
     color: #ffffff;
