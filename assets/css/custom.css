@@ -13,9 +13,9 @@
     display: block !important;
     width: 100% !important;
     aspect-ratio: 1 / 1 !important;
-    max-width: 700px !important;
+    max-width: none !important;
     border-radius: 50% !important;
     object-fit: cover !important;
     border: 3px solid #ffffff !important;
-    margin: 0 auto !important;
+    margin: 0 -20px !important; /* pulls image past the sidebar's side padding */
 }
