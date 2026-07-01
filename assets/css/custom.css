@@ -142,3 +142,11 @@
     max-width: 100%;
     max-height: 500px; /* caps how tall any image can display, adjust to taste */
 }
+
+#main.wrapper {
+    background-color: #332E42 !important;
+}
+
+body {
+    background-color: #332E42;
+}
