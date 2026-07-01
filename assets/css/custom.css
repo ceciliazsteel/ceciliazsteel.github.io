@@ -27,15 +27,15 @@
 
 
 #sidebar {
-    width: 22em; /* up from default 18em, adjust to taste */
+    width: 20em; /* up from default 18em, adjust to taste */
 }
 
 #sidebar + #wrapper {
-    margin-left: 22em; /* must match sidebar width exactly */
+    margin-left: 20em; /* must match sidebar width exactly */
 }
 
 #sidebar {
-    width: 22em;
+    width: 20em;
     overflow: hidden; /* keeps the moving background from spilling out */
 }
 
