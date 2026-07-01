@@ -128,9 +128,16 @@
     margin-bottom: 0;
 }
 
-#research-content > p {
+#research-text {
     flex: 1;
-    margin: 0;
+}
+
+#research-text p {
+    margin: 0 0 1.5em 0; /* adds space between the two paragraphs */
+}
+
+#research-text p:last-child {
+    margin-bottom: 0; /* no extra space after the final paragraph */
 }
 
 .wrapper.style1,
