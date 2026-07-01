@@ -3,19 +3,21 @@
 }
 
 #profile-pic {
-    width: 100%;
-    text-align: center;
+    width: calc(100% + 5em);
+    margin-left: -2.5em;
+    margin-right: -2.5em;
     margin-bottom: 1.5em;
+    text-align: center;
     box-sizing: border-box;
 }
 
 #sidebar #profile-pic img {
     display: block !important;
-    width: 100% !important;
+    width: calc(100% - 20px) !important;
     aspect-ratio: 1 / 1 !important;
     max-width: none !important;
     border-radius: 50% !important;
     object-fit: cover !important;
     border: 3px solid #ffffff !important;
-    margin: 0 -20px !important; /* pulls image past the sidebar's side padding */
+    margin: 0 auto !important;
 }
