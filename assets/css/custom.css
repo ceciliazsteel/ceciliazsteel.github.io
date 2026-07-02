@@ -230,12 +230,6 @@ body {
     #sidebar + #wrapper {
         margin-left: 0 !important;
     }
-    #profile-pic {                      /* NEW */
-        display: none !important;       /* NEW */
-    }                                    /* NEW */
-    #sidebar-bg {                       /* NEW */
-        display: none !important;       /* NEW */
-    }                                    /* NEW */
 }
 
 @media screen and (max-width: 736px) {
