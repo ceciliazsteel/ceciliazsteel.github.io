@@ -223,16 +223,6 @@ body {
 }
 @media screen and (max-width: 1280px) {
     #sidebar {
-        width: 100% !important;
-        height: 3.5em !important;      /* NEW */
-        overflow: visible !important;   /* NEW */
-    }
-    #sidebar + #wrapper {
-        margin-left: 0 !important;
-    }
-}
-@media screen and (max-width: 736px) {
-    #sidebar {
         display: block !important;
         position: fixed !important;
         top: 0 !important;
@@ -279,7 +269,7 @@ body {
 
     #profile-name,
     #profile-title {
-        display: none !important; /* keep just the photo, hide text to save space */
+        display: none !important;
     }
 
     #sidebar nav ul {
@@ -299,5 +289,28 @@ body {
     #wrapper {
         padding-top: 3.5em !important;
         margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .spotlights > section {
+        display: block !important;
+    }
+    .spotlights > section > .image {
+        width: 100% !important;
+        height: auto !important;
+        overflow: hidden;
+    }
+    #about-photos {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    #research-content,
+    #figure-content {
+        flex-direction: column !important;
+    }
+    #research-video-wrap,
+    #figure-image {
+        width: 100% !important;
+        max-width: 100% !important;
     }
 }
