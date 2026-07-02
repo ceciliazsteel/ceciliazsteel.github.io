@@ -223,62 +223,19 @@ body {
 }
 @media screen and (max-width: 1280px) {
     #sidebar {
-        position: relative !important;
         width: 100% !important;
-        height: auto !important;
-        overflow: visible !important;
-        padding: 3em 2em 2em 2em !important;
-        text-align: center !important;
+        height: 3.5em !important;      /* NEW */
+        overflow: visible !important;   /* NEW */
     }
-
-    #sidebar-bg {
-        position: absolute !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        height: 100% !important;
-        background-size: cover !important;
-        background-position: center !important;
-    }
-
-    #sidebar > .inner {
-        flex-direction: column !important;
-        align-items: center !important;
-        position: relative !important;
-        z-index: 1 !important;
-        min-height: 0 !important;
-    }
-
-    #profile-pic {
-        width: 12em !important;
-        max-width: 60% !important;
-        margin: 0 auto 1em auto !important;
-    }
-
-    #sidebar #profile-pic img {
-        width: 100% !important;
-    }
-
-    #profile-name,
-    #profile-title {
-        display: block !important;
-    }
-
-    #sidebar nav ul {
-        display: flex !important;
-        flex-wrap: wrap !important;
-        justify-content: center !important;
-        margin: 1.5em 0 0 0 !important;
-    }
-
-    #sidebar nav ul li {
-        margin: 0.5em 0.75em !important;
-    }
-
-    #wrapper {
+    #sidebar + #wrapper {
         margin-left: 0 !important;
-        padding-top: 0 !important;
     }
+    #profile-pic {                      /* NEW */
+        display: none !important;       /* NEW */
+    }                                    /* NEW */
+    #sidebar-bg {                       /* NEW */
+        display: none !important;       /* NEW */
+    }                                    /* NEW */
 }
 
 @media screen and (max-width: 736px) {
@@ -287,8 +244,8 @@ body {
     }
     .spotlights > section > .image {
         width: 100% !important;
-        height: auto !important;
-        overflow: hidden;
+        height: auto !important;        /* NEW */
+        overflow: hidden;               /* NEW */
     }
     #about-photos {
         grid-template-columns: repeat(2, 1fr) !important;
@@ -301,5 +258,49 @@ body {
     #figure-image {
         width: 100% !important;
         max-width: 100% !important;
+    }
+}
+
+}
+@media screen and (max-width: 736px) {
+    #sidebar {
+        display: block !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 3.5em !important;
+        overflow: visible !important;
+        z-index: 10000 !important;
+    }
+
+    #sidebar > .inner {
+        flex-direction: row !important;
+        align-items: center !important;
+        height: 100% !important;
+        justify-content: center !important;
+    }
+
+    #profile-pic {
+        display: none !important; /* photo/name hidden in the thin bar, nav only */
+    }
+
+    #sidebar nav ul {
+        display: flex !important;
+        flex-direction: row !important;
+        margin: 0 !important;
+    }
+
+    #sidebar nav ul li {
+        margin: 0 0 0 1.5em !important;
+    }
+
+    #sidebar nav ul li:first-child {
+        margin-left: 0 !important;
+    }
+
+    #wrapper {
+        padding-top: 3.5em !important;
+        margin-left: 0 !important;
     }
 }
